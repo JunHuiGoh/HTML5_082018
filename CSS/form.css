@@ -6,6 +6,8 @@ CSG to be used by contact.html*/
     padding: 10px;
     height: 80%;
     margin: 5px;
+    margin-bottom: 80px;
+    border-radius: 6px;
     background-color: rgb(46, 230, 159);
 }
 
