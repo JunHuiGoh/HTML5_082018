@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Template</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="My HTML5 course tutorial walkthrough">
+    <meta name="keywords" content="HTML5,CSS,JavaScript">
+    <meta name="author" content="Jun Hui">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./Image/hacker.png" type="image/png" sizes="16x16">
+
+    <!--
+        links to external css styles to be inculdes for this websites or web page
+    -->
+    <link rel="stylesheet" href="./CSS/Main.css" type="text/css">
+    <link rel="stylesheet" href="./CSS/form.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <figure class="banner">
+            <img src="./image/hackerbanner.jpg" alt="Comworks Pte Ltd">
+        </figure>
+        <h1>Welcome to hacker</h1>
+    </header>
+
+    <div id="menu bar" class="topnav">
+        <a href="index.html"> Home</a>
+        <a href="news.html"> News</a>
+        <a class="active" href="contacts.html"> Contacts</a>
+        <a href="about.html"> About </a>
+
+        <div id="searchbar" class="search-container">
+            <form action="#action">
+                <button type="submit">
+                    <i class="fas fa-search fa-2x"></i>
+                </button>
+                <input type="text" placeholder="Search..." name="search">
+            </form>
+        </div>
+    </div>
+
+    <h1>Contacts Us</h1>
+    <div class="lastdiv">
+        <div class="column1 containerleft">
+
+        </div>
+
+        <div class="column1 containermiddle">
+            <form action="#" method="POST">
+                <div>
+                    <label class="formlabel" for="fname">First Name </label>
+                    <input type="text" id="fname" class="formcss" name="firstname" placeholder="Your First Name...">
+                </div>
+
+                <div>
+                    <label class="formlabel" for="lname">Last Name </label>
+                    <input type="text" id="lname" class="formcss" name="lastname" placeholder="Your Last Name...">
+                </div>
+
+                <div>
+                    <i class="fas fa-envelope" id="iconm"></i>
+                    <label class="formlabel" for="email">E-Mail </label>
+                    <input type="email" id="email" class="formcss" name="email" placeholder="Your E-Mail...">
+
+                </div>
+
+                <div>
+                    <i class="fas fa-globe-asia" id="icong"></i>
+                    <label class="formlabel" for="country">Country </label>
+                    <select id="country" class="formcss">
+                        <option value="sg">Singapore</option>
+                        <option value="my">Malaysia</option>
+                        <option value="au">Australia</option>
+                    </select>
+                </div>
+                <div>
+                    <i class="fas fa-file" id="icond"></i>
+                    <label class="formlabel" id= "description" for="description">Description </label>
+                    <textarea id="subject" class="formcss" rows="15" placeholder="Write something.."></textarea>
+                </div>
+
+                <div class="lastdiv">
+                        <input type="submit" value="submit" class ="formbutton">
+                </div>
+
+
+            </form>
+        </div>
+
+        <div class="column1 containerright">
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="bottomrow">
+            <Div class="bottomcolumn">
+                <a href="https://www.facebook.com">
+                    <i id="fb" class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="https://www.google.com">
+                    <i id="gl" class="fab fa-google fa-2x"></i>
+                </a>
+                <a href="https://www.snapchat.com">
+                    <i id="sc" class="fab fa-snapchat-square fa-2x"></i>
+                </a>
+                <a href="https://www.instagram.com">
+                    <i id="ig" class="fab fa-instagram fa-2x"></i>
+                </a>
+            </Div>
+
+        </div>
+        <small> &copy; Copyrights 2018. Hackers </small>
+
+    </footer>
+
+</body>
+
+</html>

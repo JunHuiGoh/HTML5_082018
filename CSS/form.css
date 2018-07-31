@@ -1,0 +1,71 @@
+/*
+CSG to be used by contact.html*/
+
+.column1{
+    float: left;
+    padding: 10px;
+    height: 80%;
+    margin: 5px;
+    background-color: rgb(46, 230, 159);
+}
+
+.containerleft, .containerright{
+width: 15%;
+}
+
+.containermiddle{
+    width:60%;
+
+}
+
+.formlabel{
+    display: inline-block;
+    width: 120px;
+}
+
+.formcss{
+    width:55%;
+    padding:12px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}   
+
+
+#email{
+    margin-left: -18px;
+
+}
+
+
+#country{
+    margin-left: -18px;
+    padding-right:57%;
+}
+
+.formbutton{
+    background-color: blue;
+    columns: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
+}
+
+#subject{
+    margin-left: -10px;
+}
+
+label{
+    float: left;
+    display:block;
+    padding-top: 18px;
+}
+
+#iconm, #icong, #icond{
+    float: left;
+    display:block;
+    padding-top: 18px;    
+}
