@@ -18,28 +18,30 @@ body {
     float: left;
     color: rgba(0, 0, 0, 0.76);
     text-align: center;
-    padding: 8px 16px;
+    padding: 13px 16px;
     text-decoration: none;
     font-size: 17px;
     
 }
 
 .topnav a:hover{
-    background-color: rgb(255, 0, 21);
-    color: rgb(112, 131, 216);
-    padding: 11px;
+    background-color: rgb(25, 255, 75);
+    color: rgb(255, 255, 255);
+    padding: 13px;
 }
 
 .topnav a.active{
     background-color: yellow;
-    padding-bottom: 15px;
+    padding: 13px;
     color: black;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .topnav a.active:hover{
-    background-color: rgb(255, 0, 21);
-    color: rgb(112, 131, 216);
-    padding: 11px;
+    background-color: rgb(25, 255, 75);
+    color: rgb(255, 255, 255);
+    padding: 13px;
 }
 
 .topnav input[type=text]{
@@ -57,11 +59,12 @@ body {
 .topnav .search-container{
     float: right;
     margin-bottom: 4px;
+    margin-top: 4px;
 }
 
 .topnav .search-container button{
     float: right;
-    margin-left: 1px;
+    margin-left: 0px;
     margin-right: 16px;
     margin-top: 5px;
     margin-bottom: 0px;
@@ -90,7 +93,7 @@ body {
     bottom: 0;
     font-weight: bold;
     font-style: italic;
-    background-color: darksalmon;
+    background-color: rgb(161, 160, 160);
     width: 100%;
   }
 
@@ -109,6 +112,13 @@ body {
     margin-left: 10px;
 }*/
 
+#fb{
+    color: blue;
+}
+
+#gl{
+    color: rgb(66, 245, 66);
+}
 #sc{
     color: rgb(245, 245, 53)
 }
@@ -117,9 +127,7 @@ body {
     color: black
 }
 
-#fb{
-    color: blue;
-}
+
   .row {
       background-color: yellow;
                                                                                                                                                                                                                                                                                             
@@ -193,8 +201,6 @@ a:link{
 
 a:hover{
     color: red;
-    text-decoration: underline;
-    background-color: yellow;
 }
 
 a:visited{

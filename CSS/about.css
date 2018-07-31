@@ -1,0 +1,71 @@
+/*
+CSG to be used by about.html*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mottopic {
+    background-color: yellow;
+    padding: 5px;
+    margin-top: 5px;
+    text-align: center; 
+                                                                                                                                                                                                                                                                                          
+      }
+
+.mottopic::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.columnm {
+  float: left;
+
+}
+
+.motto1 { 
+  width: 30%;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+}
+
+.motto2 { 
+    width: 30%;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+  }
+
+  .motto3 { 
+    width: 30%;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+  }
+
+
+  .column1{
+    float: left;
+    padding: 10px   ;
+    height: 80%;
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    border-radius: 6px;
+    background-color: rgb(46, 230, 159);
+}
+
+.achivementleft, .achivementright{
+width: 20%;
+background-color: yellow;
+height:700px;
+text-align: center
+}
+
+.aboutus{
+    width:50%;
+    background-color:white;
+
+}
+
+.picmargin{
+    margin-top: 10px
+}
