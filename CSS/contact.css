@@ -1,0 +1,78 @@
+.form_hint{
+    font-size: 15px;
+    color: red;
+    background: yellow;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 2px 8px;
+    position: absolute;
+    display: none;
+}
+
+.form_hint:before{
+    content:"\25C0";
+    position: absolute;
+    color:yellow;
+    top:-6px;
+    left:-20px;
+    font-size: 25px;
+
+}
+
+.contact_form label{
+    display: block;
+    text-align: left;
+    /* vertical-align: top; */
+}
+
+
+/*.contact_form input{
+    width: 445px;
+}*/
+
+/*.contact_form textarea{
+   width:400px;
+}*/
+
+.contact_form input, .contact_form textarea {
+    border:1px solid rgba(233, 233, 230, 0.842);
+    box-shadow: 0px 0px 3px #ccc, 0px 10px 15px #eeeeee inset;
+    border-radius: 3px;
+    padding-right: 15px;
+    -moz-transition: padding 1s;
+    -webkit-transition: padding 1s;
+    transition: padding 1s;
+    
+}
+
+.contact_form input:focus, .contact_form textarea:focus{
+    background: white;
+    border: 1px solid #555;
+    box-shadow: 0px 0px 3px;
+    padding-right: 35px;
+}
+
+.contact_form input:required, .contact_form textarea:required{
+    background: #ffff url("../Image/red_asterisk.png") no-repeat 98% center;
+}
+
+.contact_form input:valid, .contact_form textarea:valid{
+    background: #ffff url("../Image/valid.png") no-repeat 98% center;
+    border-color: greenyellow;
+    border:2px;
+}
+
+.contact_form input:invalid, .contact_form textarea:invalid{
+    background: #ffff url("../Image/invalid.png") no-repeat 98% center;
+    border-color: rgb(128, 0, 0);
+    border:2px;
+}
+
+.contact_form input:focus + .form_hint{
+    display: inline;
+}
+
+.contact_form input:required:valid + .form_hint{
+background: lime;
+display: none;
+}
